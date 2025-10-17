@@ -25,7 +25,7 @@ Data is organized according to [BIDS](http://bids.neuroimaging.io/).
 
 Functional and anatomical scans can be found in the respective folders named according to the subject identifiers (e.g. sub-01). All anatomical scans were anonymized using [pydeface](https://github.com/poldracklab/pydeface).
 
-The stimuli folder contains references to all images used in the study, alongside with the corrected captions in `stimuli.csv`(the IDs refer to CoCo IDs). The same folder also contains the subjects' drawings of their mental imagery scenes from the end of the experiment.
+The stimuli folder contains references to all images used in the study, alongside with the corrected captions in `stimuli.csv` (the IDs refer to CoCo IDs). The same folder also contains the subjects' drawings of their mental imagery scenes from the end of the experiment.
 
 The `derivatives/betas` directory contains preprocessed `betas` for each training, test and imagery stimulus for each subject in their respective subject-specific space (volume). For details on how these were extracted please refer to the paper. In `derivatives/betas/surface` we additionally provide surface-projections onto fsaverage of these betas.
 
