@@ -29,6 +29,8 @@ The stimuli folder contains references to all images used in the study, alongsid
 
 The `derivatives/betas` directory contains preprocessed `betas` for each training, test and imagery stimulus for each subject in their respective subject-specific space (volume). For details on how these were extracted please refer to the paper. In `derivatives/betas/surface` we additionally provide surface-projections onto fsaverage of these betas.
 
+NB: The betas are not part of this version, they will be shared in an updated version of the dataset.
+
 ## Citation
 
 If you make use of the SemReps-8K dataset, please cite the corresponding paper:
